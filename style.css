@@ -88,9 +88,20 @@ a {
 
 /* sevices section */
 
-.services .container {
-    height: 500px;
+@media (max-width: 1450px) {
+    .container {
+        width: 1200px;
+    }
+    .services .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .my-services {
+        display: block;
+        text-align: center;
+    }
 }
+
 
 
 .my-services {
@@ -106,7 +117,7 @@ a {
     font-weight: 700;
 }
 
-.my-services p {
+.my-services p, .services-list p {
     line-height: 1.8;
     color: #6E6E6E;
 }
@@ -117,7 +128,33 @@ a {
     color: #ffffff;
 }
 
-.each-services {
-    background-color: blueviolet;
-    height: 100px;
+.services-list {
+    height: 460px;
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services-list div {
+    position: relative;
+    width: 260px;
+    padding: 40px 50px 40px 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+.services-list div img {
+    position: absolute;
+    top: 33px;
+    left: 33px;
+}
+
+.services-list div h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.services-list div p {
+    margin-top: 20px;
 }
