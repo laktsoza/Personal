@@ -1,0 +1,123 @@
+
+body {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.p15 {
+    padding: 0 15px;
+}
+
+.container-fluid {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.main-section {
+    padding-top: 23px;
+    height: 1060px;
+    background-image: url('./images/person1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 20px 50px;
+    border: 1px solid #ffffff;
+}
+
+.main-header a {
+    color: #ffffff;
+}
+
+.logo-text a {
+    font-size: 2em;
+    color: #A0D334;
+}
+
+.navigation {
+   gap: 70px;
+}
+
+.resume {
+    height: 825px;
+    justify-content: flex-end;
+}
+
+.description {
+    width: 550px;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.description p {
+    font-size: 1.5em;
+}
+
+.description h1 {
+    font-family: 'Montserrat';
+    font-size: 4.3em;
+}
+
+.get-started {
+    margin-top: 50px;
+    background-color: #A0D334;
+}
+
+.get-started a {
+    color: #ffffff;
+}
+
+/* sevices section */
+
+.services .container {
+    height: 500px;
+}
+
+
+.my-services {
+    width: 350px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.my-services h1 {
+    font-size: 2.1em;
+    font-weight: 700;
+}
+
+.my-services p {
+    line-height: 1.8;
+    color: #6E6E6E;
+}
+
+.my-services a {
+    display: inline-block;
+    background-color: #A0D334;
+    color: #ffffff;
+}
+
+.each-services {
+    background-color: blueviolet;
+    height: 100px;
+}
